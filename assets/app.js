@@ -40,5 +40,5 @@ const number1 = {
     '0': 'Zero',
 }
 
-let text = 'AC5331'
-console.log (alphabet[text[0]]);
+let text = 'AF5331'
+console.log (alphabet[text[0]],alphabet[text[1]],number1[text[2]],number1[text[3]],number1[text[4]],number1[text[5]]);

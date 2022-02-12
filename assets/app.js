@@ -4,38 +4,57 @@ let text = prompt ('Введите код ICAO, например KL1234');
 
 const alphabet = {
     'A': 'Alfa',
+    'a': 'Alfa',
     'B': 'Bravo',
+    'b': 'Bravo',
     'C': 'Charlie',
+    'c': 'Charlie',
     'D': 'Delta',
+    'd': 'Delta',
     'E': 'Echo',
+    'e': 'Echo',
     'F': 'Foxtrot',
+    'f': 'Foxtrot',
     'G': 'Golf',
+    'g': 'Golf',
     'H': 'Hotel',
+    'h': 'Hotel',
     'I': 'India',
+    'i': 'India',
     'J': 'Juliet',
+    'j': 'Juliet',
     'K': 'Kilo',
+    'k': 'Kilo',
     'L': 'Lima',
+    'l': 'Lima',
     'M': 'Mike',
+    'm': 'Mike',
     'N': 'November',
+    'n': 'November',
     'O': 'Oscar',
+    'o': 'Oscar',
     'P': 'Papa',
+    'p': 'Papa',
     'Q': 'Quebec',
+    'q': 'Quebec',
     'R': 'Romeo',
+    'r': 'Romeo',
     'S': 'Sierra',
+    's': 'Sierra',
     'T': 'Tango',
+    't': 'Tango',
     'U': 'Uniform',
+    'u': 'Uniform',
     'V': 'Victor',
+    'v': 'Victor',
     'W': 'Whiskey',
+    'w': 'Whiskey',
     'X': 'X-ray',
+    'x': 'X-ray',
     'Y': 'Yankee',
+    'y': 'Yankee',
     'Z': 'Zulu',
-}
-
-for (let item in alphabet) {if (item===text) 
-    {console.log (alphabet[item])}}
-
-
-const number1 = {
+    'z': 'Zulu',
     '1': 'One',
     '2': 'Two',
     '3': 'Three',
@@ -46,10 +65,21 @@ const number1 = {
     '8': 'Eight',
     '9': 'Nine',
     '0': 'Zero',
+    ' ': ' ',
+    '.': '.',
+    '-': '-',
+};
+
+
+
+
+for (let item in alphabet) {if (item===text) 
+    {console.log (alphabet[item])}
+    
+
 }
 
-for (let item in number1) {if (item===text) 
-    {console.log (number1[item])}}
 
 
-console.log (alphabet[text[0]],alphabet[text[1]],number1[text[2]],number1[text[3]],number1[text[4]],number1[text[5]]);
+
+console.log (alphabet[text]);

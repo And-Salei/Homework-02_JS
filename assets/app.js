@@ -70,6 +70,11 @@ const alphabet = {
     '-': '-',
 };
 
+let x = 'fgdg4gdfg';
+
+x = x.split('');
+
+x = x.map(i => alphabet[i]);
 
 
 
@@ -80,6 +85,6 @@ for (let item in alphabet) {if (item===text)
 }
 
 
-
-
 console.log (alphabet[text]);
+
+]
